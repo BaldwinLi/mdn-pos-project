@@ -38,7 +38,7 @@
             <div style="margin-bottom: 4rem;"></div>
         </el-dialog>
 
-        <el-dialog title="结算" :visible.sync="posDialogVisible" size="small">
+        <el-dialog title="支付成功！" :visible.sync="posDialogVisible" size="small">
             <p style="height: 5rem;margin-left: 2rem;line-height: 2rem;">
                 <el-button style="display: inline-block; width:25%;margin-top: 2rem;" class="menu-btn" type="primary">向其他POS同步数据</el-button>
                 <label style="display: inline-block; width:7%; margin: 2rem; margin-right: 0">数据内容</label>

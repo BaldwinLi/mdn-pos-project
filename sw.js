@@ -16,6 +16,7 @@ self.addEventListener('install', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
+  if(event.request.method === 'GET'){
     event.respondWith(
       caches.match(event.request)
         .then(function (response) {
@@ -42,6 +43,7 @@ self.addEventListener('fetch', function (event) {
           );
         })
     );
+  }
 });
 
 self.addEventListener('message', function (event) {

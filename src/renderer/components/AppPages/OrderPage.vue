@@ -161,6 +161,7 @@ export default {
           scope.payDialogVisible = false
           scope.posDialogVisible = true
           scope.selected = []
+          scope.sumPrice = 0
         } else {
           scope.$message.error('支付失败!\n' + res)
         }

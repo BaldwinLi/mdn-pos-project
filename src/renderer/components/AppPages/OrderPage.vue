@@ -70,7 +70,6 @@ function requestPay (type, detail, csb) {
       //   sendMessage(detail).then(function () {
       //     csb && csb('success', error)
       //   })
-      debugger
       csb && csb('success', error)
     })
 }

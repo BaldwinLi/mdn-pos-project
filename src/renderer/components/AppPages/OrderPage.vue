@@ -169,6 +169,7 @@ export default {
   },
   created () {
     let scope = this
+
     this.$http.get('src/dummay.json')
       .then(function (response) {
         scope.items = response.data

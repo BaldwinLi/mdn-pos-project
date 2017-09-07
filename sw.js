@@ -16,7 +16,7 @@ self.addEventListener('install', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
-  if (event.request.url.indexOf('sw_cache/orderFormRecords.json') > -1 && event.request.method === "POST") {
+  // if (event.request.url.indexOf('src/dummay.json') > -1 && event.request.method === "GET") {
     event.respondWith(
       caches.match(event.request)
         .then(function (response) {
@@ -54,7 +54,7 @@ self.addEventListener('fetch', function (event) {
           );
         })
     );
-  }
+  // }
 });
 
 self.addEventListener('message', function (event) {

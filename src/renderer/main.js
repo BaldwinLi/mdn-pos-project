@@ -61,11 +61,12 @@ if (sw) {
     })
   } else {
     // 表示该 sw 监听的是根域名下的请求
-    sw.register('sw.js').then(registration => {
-      // 注册成功后会进入回调
-      console.log(registration.scope)
-    }).catch(err => {
-      console.error(err)
-    })
+    sw.register('sw.js')
+      .then(registration => {
+        // 注册成功后会进入回调
+        console.log(registration.scope)
+      }).catch(err => {
+        console.error(err)
+      })
   }
 }

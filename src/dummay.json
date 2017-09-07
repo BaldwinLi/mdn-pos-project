@@ -1,0 +1,323 @@
+[
+    {
+        "id": "promotions",
+        "title": "促销产品和热卖产品",
+        "goods": [
+            {
+                "id": "promotion_1",
+                "name": "那么大纷享套餐",
+                "price": "69.00"
+            },
+            {
+                "id": "promotion_2",
+                "name": "蜜汁柠檬风味那么大鸡翅",
+                "price": "16.00"
+            },
+            {
+                "id": "promotion_3",
+                "name": "那么大鸡排",
+                "price": "12.00"
+            },
+            {
+                "id": "promotion_4",
+                "name": "嘻哈小食盒原味鸡排A(含薯条)",
+                "price": "30.00"
+            },
+            {
+                "id": "promotion_5",
+                "name": "嘻哈小食盒原味鸡排B(含麦乐鸡)",
+                "price": "30.00"
+            },
+            {
+                "id": "promotion_6",
+                "name": "麦趣鸡盒（含那么大鸡排）",
+                "price": "89.00"
+            },
+            {
+                "id": "promotion_7",
+                "name": "麦趣鸡盒(含麦乐鸡)",
+                "price": "89.00"
+            },
+            {
+                "id": "promotion_8",
+                "name": "5人欢享盛宴餐",
+                "price": "199.00"
+            },
+            {
+                "id": "promotion_9",
+                "name": "3人豪情派对餐",
+                "price": "98.00"
+            },
+            {
+                "id": "promotion_10",
+                "name": "麦乐家庭餐",
+                "price": "80.50"
+            }
+        ]
+    },
+    {
+        "id": "staples",
+        "title": "主食和超值套餐",
+        "goods": [
+            {
+                "id": "staple_1",
+                "name": "经典麦辣鸡腿汉堡",
+                "price": "17.00"
+            },
+            {
+                "id": "staple_2",
+                "name": "原味板烧鸡腿堡",
+                "price": "18.00"
+            },
+            {
+                "id": "staple_3",
+                "name": "巨无霸",
+                "price": "20.00"
+            },
+            {
+                "id": "staple_4",
+                "name": "麦香鸡",
+                "price": "11.00"
+            },
+            {
+                "id": "staple_5",
+                "name": "奶油坚果酱蛋牛堡",
+                "price": "28.00"
+            },
+            {
+                "id": "staple_6",
+                "name": "不素之霸双层牛堡",
+                "price": "28.00"
+            },
+            {
+                "id": "staple_7",
+                "name": "墨西哥烧烤风味鸡腿堡",
+                "price": "21.00"
+            },
+            {
+                "id": "staple_8",
+                "name": "双层阿拉斯加狭鳕鱼堡",
+                "price": "21.00"
+            },
+            {
+                "id": "staple_9",
+                "name": "麦香鱼",
+                "price": "17.00"
+            },
+            {
+                "id": "staple_10",
+                "name": "双层吉士汉堡",
+                "price": "18.00"
+            },
+            {
+                "id": "staple_11",
+                "name": "培根蔬萃双层牛堡",
+                "price": "21.00"
+            },
+            {
+                "id": "staple_12",
+                "name": "吉士汉堡包",
+                "price": "8.50"
+            },
+            {
+                "id": "staple_13",
+                "name": "汉堡包",
+                "price": "7.50"
+            },
+            {
+                "id": "staple_14",
+                "name": "那么大鸡排满碗饭",
+                "price": "23.00"
+            },
+            {
+                "id": "staple_15",
+                "name": "蜜汁鸡腿满碗饭",
+                "price": "23.00"
+            }
+        ]
+    },
+    {
+        "id": "sneaks",
+        "title": "小食",
+        "goods": [
+            {
+                "id": "sneak_1",
+                "name": "那么大纷享套餐",
+                "price": "69.00"
+            },
+            {
+                "id": "sneak_2",
+                "name": "蜜汁柠檬风味那么大鸡翅",
+                "price": "16.00"
+            },
+            {
+                "id": "sneak_3",
+                "name": "那么大鸡排",
+                "price": "12.00"
+            },
+            {
+                "id": "sneak_4",
+                "name": "麦乐鸡",
+                "price": "11.00"
+            },
+            {
+                "id": "sneak_5",
+                "name": "嘻哈小食盒原味鸡排A(含薯条)",
+                "price": "30.00"
+            },
+            {
+                "id": "sneak_6",
+                "name": "嘻哈小食盒原味鸡排B(含麦乐鸡)",
+                "price": "30.00"
+            },
+            {
+                "id": "sneak_7",
+                "name": "香骨鸡腿",
+                "price": "12.00"
+            },
+            {
+                "id": "sneak_8",
+                "name": "麦辣鸡翅",
+                "price": "11.00"
+            },
+            {
+                "id": "sneak_9",
+                "name": "美味鲜蔬杯",
+                "price": "11.00"
+            },
+            {
+                "id": "sneak_10",
+                "name": "薯条",
+                "price": "7.50"
+            },
+            {
+                "id": "sneak_11",
+                "name": "玉米杯",
+                "price": "10.00"
+            },
+            {
+                "id": "sneak_12",
+                "name": "麦趣鸡盒（含那么大鸡排）",
+                "price": "89.00"
+            },
+            {
+                "id": "sneak_13",
+                "name": "麦趣鸡盒(含麦乐鸡)",
+                "price": "89.00"
+            }
+        ]
+    },
+    {
+        "id": "desserts",
+        "title": "甜品",
+        "goods": [
+            {
+                "id": "dessert_1",
+                "name": "麦旋风奥利奥原味",
+                "price": "2.00"
+            },
+            {
+                "id": "dessert_2",
+                "name": "麦旋风草莓口味",
+                "price": "12.00"
+            },
+            {
+                "id": "dessert_3",
+                "name": "巧克力新地",
+                "price": "9.00"
+            },
+            {
+                "id": "dessert_4",
+                "name": "草莓新地",
+                "price": "9.00"
+            },
+            {
+                "id": "dessert_5",
+                "name": "菠萝派",
+                "price": "7.00"
+            },
+            {
+                "id": "dessert_6",
+                "name": "香芋派",
+                "price": "7.00"
+            }
+        ]
+    },
+    {
+        "id": "drinks",
+        "title": "饮品",
+        "goods": [
+            {
+                "id": "drink_1",
+                "name": "那么大鲜柠特饮",
+                "price": "10.00"
+            },
+            {
+                "id": "drink_2",
+                "name": "果味泡泡茶(青苹)",
+                "price": "11.00"
+            },
+            {
+                "id": "drink_3",
+                "name": "果味泡泡茶(蜜桃)",
+                "price": "11.00"
+            },
+            {
+                "id": "drink_4",
+                "name": "美汁源阳光橙",
+                "price": "11.00"
+            },
+            {
+                "id": "drink_5",
+                "name": "FUZE Tea柠檬红茶味饮料",
+                "price": "8.00"
+            },
+            {
+                "id": "drink_6",
+                "name": "雪碧",
+                "price": "7.00"
+            },
+            {
+                "id": "drink_7",
+                "name": "可口可乐",
+                "price": "7.00"
+            },
+            {
+                "id": "drink_8",
+                "name": "零度可口可乐",
+                "price": "7.00"
+            },
+            {
+                "id": "drink_9",
+                "name": "芬达",
+                "price": "7.00"
+            }
+        ]
+    },
+    {
+        "id": "specials",
+        "title": "开心乐园餐",
+        "goods": [
+            {
+                "id": "special_1",
+                "name": "开心乐园餐（汉堡包）",
+                "price": "20.00"
+            },
+            {
+                "id": "special_2",
+                "name": "开心乐园餐（吉士汉堡包）",
+                "price": "21.00"
+            },
+            {
+                "id": "special_3",
+                "name": "开心乐园餐（麦乐鸡）",
+                "price": "21.00"
+            },
+            {
+                "id": "special_4",
+                "name": "苹果片",
+                "price": "6.00"
+            }
+        ]
+    }
+]

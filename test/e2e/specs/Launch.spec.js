@@ -7,7 +7,7 @@ describe('Launch', function () {
   it('shows the proper application title', function () {
     return this.app.client.getTitle()
       .then(title => {
-        expect(title).to.equal('ls')
+        expect(title).to.equal('An electron-vue project')
       })
   })
 })

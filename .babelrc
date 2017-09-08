@@ -6,16 +6,9 @@
         ["env", {
           "targets": { "node": 7 }
         }],
-        "stage-0",
-        ["es2015", { "modules": false }]
+        "stage-0"
       ],
-      "plugins": ["istanbul",
-        ["component", [
-        {
-          "libraryName": "element-ui",
-          "styleLibraryName": "theme-default"
-        }
-      ]]]
+      "plugins": ["istanbul"]
     },
     "main": {
       "presets": [

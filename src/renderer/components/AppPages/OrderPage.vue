@@ -21,7 +21,7 @@
                         </el-menu-item>
                     </div>
                     <div style="height:15%">
-                        <p style="margin: 1rem;">合计金额：￥{{sumPrice  + '.00'}}</p>
+                        <p style="margin: 1rem;">合计金额: ￥{{sumPrice  + '.00'}}</p>
                         <el-button class="menu-btn" type="primary" @click="openPayDialog">订单结算</el-button>
                         <el-button class="menu-btn" style="margin-left:2rem" @click="cancel">取消订单</el-button>
                     </div>
@@ -30,7 +30,7 @@
         </el-row>
 
         <el-dialog title="订单结算" :visible.sync="payDialogVisible">
-            <p style="margin: 2rem;">合计金额：￥{{sumPrice  + '.00'}}</p>
+            <p style="margin: 2rem;">合计金额: ￥{{sumPrice  + '.00'}}</p>
             <el-button class="menu-btn" @click="toPay('alipay')"><img class="btn-icon" src="src/renderer/assets/Alipay.jpg">支付宝</el-button>
             <el-button class="menu-btn" @click="toPay('weichat')"><img class="btn-icon" src="src/renderer/assets/weichat.jpg">微信</el-button>
             <el-button class="menu-btn" @click="toPay('unionpay')"><img class="btn-icon" src="src/renderer/assets/UnionPay.png">银联卡</el-button>
